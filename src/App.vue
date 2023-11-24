@@ -1,15 +1,12 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import NavItem from './components/Header.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
+    <NavItem />
   </header>
 
   <main>
@@ -18,6 +15,16 @@ import TheWelcome from './components/TheWelcome.vue'
 </template>
 
 <style scoped>
+.btnNew{
+  background-color: lightgreen;
+  color: darkgreen;
+}
+.btnNew:hover{
+  transition: 0.7s;
+  background-color: darkgreen;
+  color: #fff;
+}
+
 header {
   line-height: 1.5;
 }
