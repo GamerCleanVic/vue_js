@@ -13,7 +13,7 @@
         width: 100%;
       "
     >
-      <button class="btnNew"
+      <a class="btnNew"
         style="
           background-color: lightgreen;
           color: darkgreen;
@@ -21,48 +21,67 @@
           padding-left: 5px;
           padding-right: 5px;
           margin: 3px;
+          border-radius: 5px;
+          border: solid 2.5px darkgreen;
         "
-      >BTN1</button>
-      <button class="btnNew"
-              style="
+        href="#"
+      >BTN1</a>
+
+      <a class="btnNew"
+        style="
           background-color: lightgreen;
           color: darkgreen;
           padding: 2px;
           padding-left: 5px;
           padding-right: 5px;
           margin: 3px;
+          border-radius: 5px;
+          border: solid 2.5px darkgreen;
         "
-      >BTN2</button>
-      <button class="btnNew"
-              style="
+        href="#"
+      >BTN2</a>
+
+      <a class="btnNew"
+        style="
           background-color: lightgreen;
           color: darkgreen;
           padding: 2px;
           padding-left: 5px;
           padding-right: 5px;
           margin: 3px;
+          border-radius: 5px;
+          border: solid 2.5px darkgreen;
         "
-      >BTN3</button>
-      <button class="btnNew"
-              style="
+        href="#"
+      >BTN3</a>
+
+      <a class="btnNew"
+        style="
           background-color: lightgreen;
           color: darkgreen;
           padding: 2px;
           padding-left: 5px;
           padding-right: 5px;
           margin: 3px;
+          border-radius: 5px;
+          border: solid 2.5px darkgreen;
         "
-      >BTN4</button>
-      <button class="btnNew"
-              style="
+        href="#"
+      >BTN4</a>
+
+      <a class="btnNew"
+        style="
           background-color: lightgreen;
           color: darkgreen;
           padding: 2px;
           padding-left: 5px;
           padding-right: 5px;
           margin: 3px;
+          border-radius: 5px;
+          border: solid 2.5px darkgreen;
         "
-      >BTN5</button>
+        href="#"
+      >BTN5</a>
     </div>
   </NavItem>
 

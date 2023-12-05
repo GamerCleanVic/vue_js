@@ -5,8 +5,9 @@ import NavItem from './components/Header.vue'
 </script>
 
 <template>
+  <NavItem />
   <header>
-    <NavItem />
+
   </header>
 
   <main>
